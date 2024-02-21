@@ -1,0 +1,2 @@
+## C# Shellcode Runner With Process Injection
+A simple shellcode runner. The shellcode must be XOR encrypted and Base64 encoded. You must provide a key to decrypt the shellcode. Additionally, the shellcode will be injected into a process: initially into `OneDrive.exe`, and if that is not possible, then into `Chrome.exe`.
